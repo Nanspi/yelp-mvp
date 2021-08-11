@@ -1,0 +1,38 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+body {
+  body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px; }
+}
+
+td {
+  padding: 20px 15px;
+  color: rgb(58, 71, 255);
+  text-decoration-style: none;
+  list-style-type: none;
+  column-rule-style: none;
+  text-emphasis-style: none;
+}
+
+tr {
+  padding: 15px 20px;
+  color: rgb(102, 102, 102);
+}
+
+tbody {
+  padding: 15px 20px;
+}
