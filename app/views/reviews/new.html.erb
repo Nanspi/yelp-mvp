@@ -1,6 +1,16 @@
-<h1>Add a review</h1>
+<div class="container">
+<div class="w-50 mx-auto">
+<h1 class="text-center">Add a review</h1>
 <%= simple_form_for([@restaurant, @review]) do |f| %>
+    <div class="input-group-text"  id="inputGroup-sizing-default">
     <%= f.input :content %>
-    <%= f.input :rating %>
+    </div>
+    <div class="input-group-text"  id="inputGroup-sizing-default">
+    <%= f.input :rating, collection: Review::AUTHORIZED_RATES%>
+    </div>
+    <div  class="text-center" class="btn btn-primary">
     <%= f.submit 'Submit' %>
+    </div>
 <% end %>
+</div>
+</div>

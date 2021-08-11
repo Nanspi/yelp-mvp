@@ -1,3 +1,4 @@
+<div class="container">
 <p id="notice"><%= notice %></p>
 
 <h1>Restaurants</h1>
@@ -7,13 +8,13 @@
     <tr>
       <th>Name</th>
       <th>Address</th>
-      <th>category</th>
-      <th>phone number</th>
+      <th>Category</th>
+      <th>Phone number</th>
       <th colspan="4"></th>
     </tr>
   </thead>
 
-  <tbody class="container">
+  <tbody class="container" class="mb-3" class="tbody">
     <% @restaurants.each do |restaurant| %>
       <tr>
         <td><%= restaurant.name %></td>
@@ -31,4 +32,5 @@
 <br>
 <div class="btn btn-primary">
 <%= link_to 'New Restaurant', new_restaurant_path %>
+</div>
 </div>

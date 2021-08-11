@@ -29,10 +29,25 @@ td {
 }
 
 tr {
-  padding: 15px 20px;
+  padding: 150px 20px;
   color: rgb(102, 102, 102);
 }
 
 tbody {
+  padding: 150px 20px;
+
+}
+
+.form-inputs {
+  padding: auto;
+}
+
+#button_create {
+  padding: 150px 20px;
+}
+
+.input-group-text {
   padding: 15px 20px;
+  margin: 15px 20px;
+  text-align: center;
 }
